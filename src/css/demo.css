@@ -1,0 +1,38 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+
+.wrapper {
+	width: 80%;
+	min-width: 800px;
+	margin: 0px auto;
+	border: 1px solid black;
+	text-align: center;
+}
+
+.wrapper ul {
+	display: inline-block;
+	width: 100%;
+}
+
+.wrapper ul li {
+	float: left;
+	width: 25%;
+}
+
+.wrapper ul li .box {
+	margin: 5px 5px 10px;
+	border: 1px solid red;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.wrapper ul li img {
+	width: 100%;
+}
+
+.wrapper ul li p {
+	font-size: 16px;
+}
